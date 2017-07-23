@@ -6,8 +6,8 @@ How to test
 * $ cd maven-rest-client-server-jaxrs
 * $ mvn package
 * Get generated war from ./target and deploy it.
-* This example is configured to have a context root in "/", in JBoss. So, to test, please access: http://localhost:8080/api/test
-* In other servers, access: http://localhost:8080/hello.maven.rest-1.0/api/test
+* This example is configured to have a context root in "/", in JBoss. So, to test, please access: http://localhost:8080/api/playlist
+* In other servers, access: http://localhost:8080/hello.maven.rest-1.0/api/playlist
 
 Tech Stack
 * Intellij IDEA 2016.1.4
