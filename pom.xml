@@ -10,24 +10,10 @@
 
     <dependencies>
 
-        <!-- Rest Client -->
-        <dependency>
-            <groupId>com.sun.jersey</groupId>
-            <artifactId>jersey-client</artifactId>
-            <version>1.19.4</version>
-        </dependency>
-
         <!-- Rest Server: used to import reference implementation of JAX-RS -->
         <dependency>
             <groupId>com.sun.jersey</groupId>
             <artifactId>jersey-servlet</artifactId>
-            <version>1.19.4</version>
-        </dependency>
-
-        <!-- Rest Client and Server: used to serialize/unserialize class from/to JSON -->
-        <dependency>
-            <groupId>com.sun.jersey</groupId>
-            <artifactId>jersey-json</artifactId>
             <version>1.19.4</version>
         </dependency>
 
@@ -37,7 +23,7 @@
         <sourceDirectory>src/main/java</sourceDirectory>
         <plugins>
 
-            <!-- used specify which folder contains web.xml and other war files -->
+            <!-- specify which folder contains web.xml and other war files -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
